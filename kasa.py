@@ -4,7 +4,7 @@ utrata = 0
 loop = True
 
 while loop:
-
+    print("")
     print("pečivo")
     print("ovoce")
     print("maso")
