@@ -2,7 +2,7 @@
 nakup =[]
 utrata = 0
 loop = True
-
+print("Výtej v Potravinách Honzaklobassa")
 while loop:
     print("")
     print("pečivo")
