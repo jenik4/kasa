@@ -32,7 +32,7 @@ while loop:
         continue
 
 
-    if vyber == "ovoce":
+    elif vyber == "ovoce":
         print("Napiš co chceš: ")
         print("jablko - 10kč")
         print("banán - 8kč")
@@ -52,7 +52,7 @@ while loop:
         continue
 
 
-    if vyber == "maso":
+    elif vyber == "maso":
         print("Napiš co chceš: ")
         print("kuřecí - 150kč")
         print("jehněčí - 200kč")
@@ -71,7 +71,7 @@ while loop:
             print("Taková položka není zkus to znova") 
         continue
 
-    if vyber == "konec":
+    elif vyber == "konec":
         loop = False
         print(f"celkem to bude:  {utrata}  Kč.")
         print("Tvé zboží:")
